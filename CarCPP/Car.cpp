@@ -64,7 +64,7 @@ void Car::SetFuelUsing(float fuelUsing)
 	this->fuelUsing = fuelUsing;
 }
 
-Car& Car::operator()(string brand, string number)//ïåğåâàíòàæåíí³ îïåğàòîğè
+Car& Car::operator()(string brand, string number)//Ã¯Ã¥Ã°Ã¥Ã¢Ã Ã­Ã²Ã Ã¦Ã¥Ã­Ã­Â³ Ã®Ã¯Ã¥Ã°Ã Ã²Ã®Ã°Ã¨
 {
 	this->brand = brand;
 	this->number = number;
@@ -96,7 +96,7 @@ string Car::GetInfo()
 
 void Car::SetInfo(istream& stream)
 {
-	cout << "Input car`s data" << endl;
+	cout << "Input car`s dataa" << endl;
 	cout << "Brand: ";
 	stream >> brand;
 	cout << "Number: ";
