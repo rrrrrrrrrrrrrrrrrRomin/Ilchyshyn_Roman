@@ -8,11 +8,11 @@ class Car
 private:
 	string number;
 	string brand;
-	float cargoWeight = 0;
+	doublecargoWeight = 0;
 	float fuelUsing = 0;
 public:
 	Car(){}
-	Car(string number, string brand, float cargoWeight, float fuelUsing);//конструктор ініціалізації
+	Car(string number, string brand, float cargoWeight, float fuelUsing);//ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г° ВіГ­ВіГ¶ВіГ Г«ВіГ§Г Г¶ВіВї
 	Car(const Car& car);
 	Car(Car&& car);
 
