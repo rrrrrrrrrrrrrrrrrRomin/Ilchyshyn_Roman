@@ -1,0 +1,4 @@
+AB125FN Audi 12,5 44,8
+QF2298J BMW 10 36,4
+NN67FK Skoda 9 25
+B04KO DodgeChalanger 7 3
